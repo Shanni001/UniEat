@@ -219,7 +219,7 @@ class AdminController extends Controller
             return redirect('/index');
 
         } elseif ($user->user_type == 'Vendor') {
-            return redirect('/admin');
+            return redirect('vendor');
         } else {
             return redirect('login')->with('error', 'User type is not recognized');
         }

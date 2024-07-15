@@ -57,7 +57,7 @@
           <li><a href="#chefs">Services</a></li>
           <li class="dropdown"><a href="#"><span>Account</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="{{URL::to('myOrders')}}">My Orders</a></li>
+              <li><a href="{{URL::to('/myOrders')}}">My Orders</a></li>
 
               <li><a href="{{URL::to('/profile')}}">My Account</a></li>
               <li><a href="#">Dropdown 3</a></li>

@@ -105,7 +105,7 @@ class MainController extends Controller
                 return redirect('/index');
 
             } elseif ($user->user_type == 'Vendor') {
-                return redirect('/admin');
+                return redirect('/vendor');
             }
         } else {
             return redirect('login')->with('error', 'Email/Password is incorrect');
